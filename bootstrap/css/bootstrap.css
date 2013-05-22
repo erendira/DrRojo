@@ -5775,12 +5775,10 @@ a.badge:hover {
 }
 
 .principal {
-  /*background-color: #000333;*/
   width: 100%;
-  /*background-color: #3d519a;*/
   background-color: #f8f4c7;
-  /*color: white;*/
   color: #3d2f2e;
+  position: relative;
 }
 
 .text-align-center{
@@ -5809,7 +5807,6 @@ a.badge:hover {
 
 .atencion{
   font-size: 40px;
-  /*margin: 10px;*/
 }
 
 .atencion span{
@@ -5818,7 +5815,6 @@ a.badge:hover {
 }
 
 .services{
-  /*background-color: #f4f4f3;*/
   background-color: #f8f4c7;
   padding: 15px;
   font-size: 20px;
@@ -5827,6 +5823,18 @@ a.badge:hover {
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
+}
+
+.services strong {
+  margin-left: 10%;
+  font-size: 20px;
+}
+
+.services ul {
+  margin-left: 20%;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .cedula{
@@ -5840,18 +5848,14 @@ a.badge:hover {
 }
 
 .urgencias-div{
-  /*background-color: #cda917;*/
-  /*background-color: #edd568;*/
   background-color: #e66920;
-  /*color: #3d519a;*/
   color: #3d2f2e;
   font-size: 24px;
   font-weight: bold;
-  margin-top: -25px;
-  height: 80px;
-  width: 150px;
   position: absolute;
-  margin-left: 870px;
+  margin: auto;
+  top: 80%;
+  left: 60%;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -5886,5 +5890,5 @@ a.badge:hover {
 .logo{
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 75%;
+  /*width: 75%;*/
 }
